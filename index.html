@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Frontend Mentor | Recipe page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main class="d-flex justify-content-center align-items-center p-0 p-md-5" style="min-height: 100vh; height: 100%; background-color: #f3e5d8;">
+    <div class="main-content container bg-white rounded-4 px-0" style="max-width: 700px;">
+      <section class="image-container container-fluid p-0 p-md-4">
+        <img class="img-fluid rounded-3" src="./assets/images/image-omelette.jpeg" alt="">
+      </section>
+
+      <section class="text-container d-flex flex-column align-items-start p-4 pt-0">
+        <h1 class="my-4" style="font-family: 'YoungSerif';">Simple Omelette Recipe</h1>
+        <p class="" style="color: hsl(30, 10%, 34%)">An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
+          to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+
+        <section class="prepTime w-100 rounded-3 p-3" style="background-color: hsl(330, 100%, 98%);">
+          <p class="fs-5 fw-semibold my-2" style="color: hsl(332, 51%, 32%)">Preparation time</p>
+          <ul style="color: hsl(332, 51%, 32%);">
+            <li>
+              <p style="color: hsl(30, 10%, 34%)"><span class="fw-bold text-capitalize">total:</span> Approximately 10 minutes</p>
+            </li>
+            <li>
+              <p style="color: hsl(30, 10%, 34%)"><span class="fw-bold text-capitalize">preparation:</span> 5 minutes</p>
+            </li>
+            <li>
+              <p style="color: hsl(30, 10%, 34%)"><span class="fw-bold text-capitalize">cooking:</span> 5 minutes</p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="ingredientsDiv w-100 my-4 border-bottom">
+          <p class="fs-2 text-capitalize" style="font-family: 'YoungSerif'; color: hsl(14, 45%, 36%)">ingredients</p>
+          <ul style="color: hsl(14, 45%, 36%)">
+            <li>
+              <p class="text-capitalize" style="color: hsl(30, 10%, 34%)"> 2-3 large eggs</p>
+            </li>
+            <li>
+              <p class="text-capitalize" style="color: hsl(30, 10%, 34%)">Salt, to taste</p>
+            </li>
+            <li>
+              <p class="text-capitalize" style="color: hsl(30, 10%, 34%)">Pepper, to taste</p>
+            </li>
+            <li>
+              <p class="text-capitalize" style="color: hsl(30, 10%, 34%)">1 tablespoon of butter or oil</p>
+            </li>
+            <li>
+              <p class="text-capitalize" style="color: hsl(30, 10%, 34%)">Optional fillings: cheese, diced vegetables, cooked meats, herbs</p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="instructionsDiv w-100 border-bottom">
+          <p class="fs-2 text-capitalize" style="font-family: 'YoungSerif'; color: hsl(14, 45%, 36%)">instructions</p>
+          <ol class="fw-bold" style="color: hsl(14, 45%, 36%)">
+            <li class="fw-bold">
+              <p class="fw-normal ms-3" style="color: hsl(30, 10%, 34%)"><span class="fw-bold">Beat the eggs:</span> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
+                You can add a tablespoon of water or milk for a fluffier texture.</p>
+            </li>
+            <li class="fw-bold">
+              <p class="fw-normal ms-3" style="color: hsl(30, 10%, 34%)"><span class="fw-bold">Heat the pan:</span> Place a non-stick frying pan over medium heat and add butter or oil.</p>
+            </li>
+            <li class="fw-bold">
+              <p class="fw-normal ms-3" style="color: hsl(30, 10%, 34%)"><span class="fw-bold">Cook the omelette:</span> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure
+                the eggs evenly coat the surface.</p>
+            </li>
+            <li class="fw-bold">
+              <p class="fw-normal ms-3" style="color: hsl(30, 10%, 34%)"><span class="fw-bold">Add fillings (optional):</span> When the eggs begin to set at the edges but are still slightly runny in the
+                middle, sprinkle your chosen fillings over one half of the omelette.</p>
+            </li>
+            <li class="fw-bold">
+              <p class="fw-normal ms-3" style="color: hsl(30, 10%, 34%)"><span class="fw-bold">Fold and serve:</span> As the omelette continues to cook, carefully lift one edge and fold it over the
+                fillings. Let it cook for another minute, then slide it onto a plate.</p>
+            </li>
+            <li class="fw-bold">
+              <p class="fw-normal ms-3" style="color: hsl(30, 10%, 34%)"><span class="fw-bold">Enjoy:</span> Serve hot, with additional salt and pepper if needed.</p>
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="nutritionDiv w-100 my-4">
+          <p class="fs-2 text-capitalize" style="font-family: 'YoungSerif'; color: hsl(14, 45%, 36%)">nutrition</p>
+          <p class="" style="color: hsl(30, 10%, 34%)">The table below shows nutritional values per serving without the additional fillings.</p>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item d-flex">
+              <p class="text-capitalize w-50" style="color: hsl(30, 10%, 34%)">calories</p>
+              <p class="fw-bold" style="color: hsl(14, 45%, 36%)">277kcal</p>
+            </li>
+            <li class="list-group-item d-flex">
+              <p class="text-capitalize w-50" style="color: hsl(30, 10%, 34%)">carbs</p>
+              <p class="fw-bold" style="color: hsl(14, 45%, 36%)">0g</p>
+            </li>
+            <li class="list-group-item d-flex">
+              <p class="text-capitalize w-50" style="color: hsl(30, 10%, 34%)">protein</p>
+              <p class="fw-bold" style="color: hsl(14, 45%, 36%)">20g</p>
+            </li>
+            <li class="list-group-item d-flex">
+              <p class="text-capitalize w-50" style="color: hsl(30, 10%, 34%)">fat</p>
+              <p class="fw-bold" style="color: hsl(14, 45%, 36%)">22g</p>
+            </li>
+          </ul>
+        </section>
+
+      </section>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://www.frontendmentor.io/profile/KarimChehab2003">Karim Chehab</a>.
+      </div>
+    </div>
+
+  </main>
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

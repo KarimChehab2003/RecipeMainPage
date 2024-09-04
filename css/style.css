@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Outfit";
+  src: url("../assets/fonts/outfit/Outfit-VariableFont_wght.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "YoungSerif";
+  src: url("../assets/fonts/young-serif/YoungSerif-Regular.ttf")
+    format("truetype");
+}
+
+body {
+  font-family: "Outfit", sans-serif !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.image-container img {
+  aspect-ratio: auto;
+}
